@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Volumen | practica6</title>
+	<title>List | practica6</title>
 	<meta name="description" content="Documentation for practica6">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -55,13 +55,13 @@
 					<a href="../modules.html">practica6</a>
 				</li>
 				<li>
-					<a href="../modules/ejercicio_2_volumen.html">ejercicio-2/volumen</a>
+					<a href="../modules/list.html">list</a>
 				</li>
 				<li>
-					<a href="ejercicio_2_volumen.volumen.html">Volumen</a>
+					<a href="list.list-1.html">List</a>
 				</li>
 			</ul>
-			<h1>Class Volumen</h1>
+			<h1>Class List</h1>
 		</div>
 	</div>
 </header>
@@ -71,7 +71,7 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>clase volumen que implementa isConvertible</p>
+						<p>Clase list, donde su funcion es listar las notas de un mismo autor</p>
 					</div>
 				</div>
 			</section>
@@ -79,14 +79,8 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Volumen</span>
+						<span class="target">List</span>
 					</li>
-				</ul>
-			</section>
-			<section class="tsd-panel">
-				<h3>Implements</h3>
-				<ul class="tsd-hierarchy">
-					<li><a href="../interfaces/ejercicio_2_convertible.isconvertible.html" class="tsd-signature-type" data-tsd-kind="Interface">isConvertible</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">vol</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
@@ -96,13 +90,20 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="ejercicio_2_volumen.volumen.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="list.list-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="list.list-1.html#listado" class="tsd-kind-icon">listado</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="list.list-1.html#ruta" class="tsd-kind-icon">ruta</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="ejercicio_2_volumen.volumen.html#conversion" class="tsd-kind-icon">conversion</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="list.list-1.html#existenota" class="tsd-kind-icon">existe<wbr>Nota</a></li>
 							</ul>
 						</section>
 					</div>
@@ -114,62 +115,77 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Volumen<span class="tsd-signature-symbol">(</span>num1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ejercicio_2_volumen.volumen.html" class="tsd-signature-type" data-tsd-kind="Class">Volumen</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>List<span class="tsd-signature-symbol">(</span>autor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="list.list-1.html" class="tsd-signature-type" data-tsd-kind="Class">List</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in ejercicio-2/volumen.ts:7</li>
+									<li>Defined in list.ts:12</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>constructor de la clase volumen</p>
+									<p>Constructor de la clase</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>num1: <span class="tsd-signature-type">number</span></h5>
+									<h5>autor: <span class="tsd-signature-type">string</span></h5>
 									<div class="tsd-comment tsd-typography">
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="ejercicio_2_volumen.volumen.html" class="tsd-signature-type" data-tsd-kind="Class">Volumen</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="list.list-1.html" class="tsd-signature-type" data-tsd-kind="Class">List</a></h4>
 						</li>
 					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="listado" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> listado</h3>
+					<div class="tsd-signature tsd-kind-icon">listado<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in list.ts:11</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="ruta" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> ruta</h3>
+					<div class="tsd-signature tsd-kind-icon">ruta<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in list.ts:12</li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="conversion" class="tsd-anchor"></a>
-					<h3>conversion</h3>
+					<a name="existenota" class="tsd-anchor"></a>
+					<h3>existe<wbr>Nota</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">conversion<span class="tsd-signature-symbol">(</span>num1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">existe<wbr>Nota<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Implementation of <a href="../interfaces/ejercicio_2_convertible.isconvertible.html">isConvertible</a>.<a href="../interfaces/ejercicio_2_convertible.isconvertible.html#conversion">conversion</a></p>
 								<ul>
-									<li>Defined in ejercicio-2/volumen.ts:20</li>
+									<li>Defined in list.ts:31</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>funcion para convertir unidades de kilometros a metros</p>
+									<p>Funcion donde almacenamos en un vector el directorio de un autor y se comprueba si el autor tiene notas o no</p>
 								</div>
 							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>num1: <span class="tsd-signature-type">number</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>num1, resultado de la conversion</p>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -182,55 +198,25 @@
 						<a href="../modules.html">Exports</a>
 					</li>
 					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_combat.html">ejercicio-<wbr>1/combat</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_fighter.html">ejercicio-<wbr>1/fighter</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_marvel.html">ejercicio-<wbr>1/marvel</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_pokedex.html">ejercicio-<wbr>1/pokedex</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_pokemon.html">ejercicio-<wbr>1/pokemon</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_1_starwars.html">ejercicio-<wbr>1/starwars</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_convertible.html">ejercicio-<wbr>2/convertible</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_fuerza.html">ejercicio-<wbr>2/fuerza</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_longitud.html">ejercicio-<wbr>2/longitud</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_masa.html">ejercicio-<wbr>2/masa</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_temperatura.html">ejercicio-<wbr>2/temperatura</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_tiempo.html">ejercicio-<wbr>2/tiempo</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_2_velocidad.html">ejercicio-<wbr>2/velocidad</a>
+						<a href="../modules/add.html">add</a>
 					</li>
 					<li class="current tsd-kind-module">
-						<a href="../modules/ejercicio_2_volumen.html">ejercicio-<wbr>2/volumen</a>
+						<a href="../modules/list.html">list</a>
 					</li>
 					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_pe101_effectible.html">ejercicio-<wbr>PE101/effectible</a>
+						<a href="../modules/mainnote.html">main<wbr>Note</a>
 					</li>
 					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_pe101_effectiblecollection.html">ejercicio-<wbr>PE101/effectible<wbr>Collection</a>
+						<a href="../modules/modify.html">modify</a>
 					</li>
 					<li class=" tsd-kind-module">
-						<a href="../modules/ejercicio_pe101_rational.html">ejercicio-<wbr>PE101/rational</a>
+						<a href="../modules/nota.html">nota</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/read.html">read</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/remove.html">remove</a>
 					</li>
 				</ul>
 			</nav>
@@ -239,13 +225,19 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-module">
-						<a href="ejercicio_2_volumen.volumen.html" class="tsd-kind-icon">Volumen</a>
+						<a href="list.list-1.html" class="tsd-kind-icon">List</a>
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class">
-								<a href="ejercicio_2_volumen.volumen.html#constructor" class="tsd-kind-icon">constructor</a>
+								<a href="list.list-1.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="list.list-1.html#listado" class="tsd-kind-icon">listado</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="list.list-1.html#ruta" class="tsd-kind-icon">ruta</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="ejercicio_2_volumen.volumen.html#conversion" class="tsd-kind-icon">conversion</a>
+								<a href="list.list-1.html#existenota" class="tsd-kind-icon">existe<wbr>Nota</a>
 							</li>
 						</ul>
 					</li>
@@ -262,12 +254,14 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 			</ul>
 		</div>
 	</div>
